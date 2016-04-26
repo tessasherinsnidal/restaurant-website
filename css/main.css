@@ -241,7 +241,11 @@ h4:hover {
 }
 
 .location-map {
-display: none;
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }
 
 .section-locate {
@@ -342,12 +346,6 @@ footer {
     font-size: 120%;
     line-height: 1.5;
   }
-
-    .location-map {
-      display: block;
-      width: 80%;
-      max-width: 300px;
-    }
 
   .location {
     left: 30%;
