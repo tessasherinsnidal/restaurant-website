@@ -48,7 +48,6 @@ a {
   list-style-type: none;
   background-color: #000;
   display: none;
-  position: absolute;
 }
 
 .nav-check:checked ~ .navi {
@@ -105,8 +104,7 @@ a {
 .logo {
   max-width: 40px;
   display: inline-block;
-  margin: 1.2em 1em 0 0.5em;
-  margin-bottom: 0;
+  margin: 1.2em .5em 0 0.5em;
 }
 
 header{
@@ -118,7 +116,6 @@ header{
 
 li:hover {
   background-color: rgba(255,255,255,0.5);
-
 }
 
 .location:hover {
@@ -222,6 +219,31 @@ h2 {
   border-bottom: 1px solid #000;
 }
 
+address {
+  font-weight: lighter;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h4 {
+    color: #000;
+}
+
+h4:hover {
+  color: rgba(255,40,55,1);
+}
+
+.location-map {
+display: none;
+}
+
 .section-locate {
   border-bottom: none;
 }
@@ -273,7 +295,7 @@ footer {
   nav {
     display: inline-block;
     float: right;
-    width: 60%;
+    width: 64%;
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -299,8 +321,17 @@ footer {
   }
 
   .location {
-    left: 222px;
+    left: 210px;
     top: 22px;
+  }
+
+  li:hover {
+    background-color: #000;
+  }
+
+  li a:hover {
+    color: rgba(255,40,55,1);
+    text-decoration: underline;
   }
 
 }
@@ -311,6 +342,12 @@ footer {
     font-size: 120%;
     line-height: 1.5;
   }
+
+    .location-map {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+    }
 
   .location {
     left: 30%;
