@@ -48,7 +48,7 @@ a {
   list-style-type: none;
   background-color: #000;
   display: none;
-
+  position: absolute;
 }
 
 .nav-check:checked ~ .navi {
