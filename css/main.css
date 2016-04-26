@@ -178,7 +178,7 @@ h2 {
   position: absolute;
   left: 10px;
   bottom: 0;
-  top: 1%;
+  top: 10%;
   width: 40%;
   max-width: 60em;
   max-height: 45em;
@@ -300,10 +300,24 @@ strong {
   font-size: .85rem;
 }
 
+.back-to-top {
+  color: #000;
+  font-size: 1rem;
+}
+
+.back-to-top:hover {
+  color: rgba(255, 40, 55, 1);
+}
+
 @media only screen and (min-width: 25em) {
 
   .card {
-    width: 49.5%;
+    width: 49%;
+  }
+
+  li {
+    width: 49%;
+    display: inline-block;
   }
 
 }
@@ -316,8 +330,8 @@ strong {
   }
 
   .banner-body {
-    transform: translateY(-50%);
-    top: 40%;
+    transform: translateY(-25%);
+    top: 25%;
   }
 
   nav {
