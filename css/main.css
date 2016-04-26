@@ -10,7 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: 100%/1.3 Merriweather, serif;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
