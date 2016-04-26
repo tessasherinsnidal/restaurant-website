@@ -27,8 +27,12 @@ h1 {
   margin-top: 1em;
 }
 
-em {
+.banner-para {
   font-style: normal;
+}
+
+em {
+  font-size: .75rem;
 }
 
 body {
@@ -273,6 +277,8 @@ footer {
   color: #fff;
   background-color: #000;
   padding: 1rem;
+  font-size: .6rem;
+  text-align: right;
 }
 
 .terms {
@@ -283,6 +289,14 @@ footer {
 .email {
   color: rgba(50, 50, 255, 1);
   text-decoration: underline;
+}
+
+address {
+  font-size: .75rem;
+}
+
+strong {
+  font-size: .85rem;
 }
 
 @media only screen and (min-width: 25em) {
