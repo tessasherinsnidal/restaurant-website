@@ -65,16 +65,16 @@ main {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #000;
+  background-color: #8aaec0;
   display: none;
   font-size: .75rem;
   margin-top: 1.75%;
-  position: absolute;
 }
 
 .nav-check:checked ~ .navi {
-  display: block;
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .nav-check {
@@ -128,20 +128,26 @@ main {
 
 .logo {
   max-width: 40px;
-  display: inline-block;
-  margin: .75em .5em 0 0.5em;
+  float: left;
+  margin: .75em .5em 0.5em 0.5em;
 }
 
 header {
   color: #fff;
-  background-color: #000;
+  background-color: #8aaec0;
   overflow: hidden;
   position: relative;
   min-width: 250px;
 }
 
+li {
+  width: 49%;
+  display: inline-block;
+}
+
 li:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #999;
+  color: #000;
 }
 
 .location:hover {
@@ -150,6 +156,7 @@ li:hover {
 
 h4 {
   text-align: center;
+  color: #8aaec0;
 }
 
 .location {
@@ -202,7 +209,7 @@ h2 {
   text-decoration: none;
   text-align: center;
   margin: 5px;
-  padding: .2em;
+  padding: .5em;
   border: 3px solid #fff;
   border-radius: 10px;
   border-width: 1px;
@@ -214,8 +221,8 @@ h2 {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 40, 55, 0.5);
+  background-color: rgba(136, 174, 193, 0.5);
+  border-color: #8aaec0;
   color: #000;
   border-width: 1px;
 }
@@ -229,7 +236,6 @@ h2 {
 .card {
   width: 100%;
   display: inline-block;
-
 }
 
 .cards-img {
@@ -239,9 +245,13 @@ h2 {
 }
 
 .section {
-  margin: 1em;
+  margin: 0;
   padding: 1.5em 0 1.5em 0;
   border-bottom: 1px solid #000;
+}
+
+.section-body {
+  margin: 1em;
 }
 
 address {
@@ -250,19 +260,19 @@ address {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
-h4 {
-  color: #000;
+section:nth-child(odd) {
+  background-color: #8aaec0;
 }
 
 h4:hover {
-  color: rgba(255, 40, 55, 1);
+  color: #000;
 }
 
 .location-map {
@@ -287,7 +297,7 @@ img {
 
 footer {
   color: #fff;
-  background-color: #000;
+  background-color: #999;
   padding: 1rem;
   font-size: .6rem;
   text-align: right;
@@ -312,12 +322,24 @@ strong {
 }
 
 .back-to-top {
-  color: #000;
+  color: #8aaec0;
+  font-size: 1rem;
+  border-color: #8aaec0;
+}
+
+.back-to-top-odd {
+  color: #fff;
   font-size: 1rem;
 }
 
-.back-to-top:hover {
-  color: rgba(255, 40, 55, 1);
+.back-to-top-odd:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: #fff;
+}
+
+.location-map {
+  position: relative;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -425,6 +447,15 @@ strong {
     position: relative;
     margin: 0;
     border-bottom: none;
+    padding: 0;
+  }
+
+  footer {
+    background-color: #8aaec0;
+  }
+
+  .location-body {
+    display: none;
   }
 
   .section-body {
