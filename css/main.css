@@ -154,7 +154,7 @@ li:hover {
   max-width: 25px;
 }
 
-h4 {
+h3 {
   text-align: center;
   color: #8aaec0;
 }
@@ -259,7 +259,7 @@ address {
   font-style: normal;
 }
 
-h3 {
+h4 {
   font-size: 1.65rem;
 }
 
@@ -271,7 +271,7 @@ section:nth-child(odd) {
   background-color: #8aaec0;
 }
 
-h4:hover {
+h3:hover {
   color: #000;
 }
 
