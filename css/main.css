@@ -322,7 +322,7 @@ strong {
 }
 
 .back-to-top {
-  color: #fff;
+  color: #8aaec0;
   font-size: 1rem;
   border-color: #8aaec0;
 }
@@ -452,6 +452,10 @@ strong {
 
   footer {
     background-color: #8aaec0;
+  }
+
+  .back-to-top {
+    color: #8aaec0;
   }
 
   .location-body {
