@@ -145,7 +145,7 @@ li {
   display: inline-block;
 }
 
-li:hover {
+nav a:hover {
   background-color: #999;
   color: #000;
 }
@@ -400,12 +400,8 @@ strong {
     top: 22px;
   }
 
-  li:hover {
+  nav a:hover {
     background-color: #8aaec0;
-  }
-
-  li a:hover {
-    color: #000;
   }
 
   .logo {
