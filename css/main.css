@@ -25,6 +25,7 @@ p {
 h1 {
   display: inline-block;
   font-size: 1.25rem;
+  margin-left: .25em;
   margin-bottom: .5em;
   position: absolute;
   top: .25em;
@@ -127,9 +128,9 @@ main {
 }
 
 .logo {
-  max-width: 40px;
-  float: left;
-  margin: .75em .5em 0.5em 0.5em;
+  max-width: 15px;
+  position: relative;
+  margin: .75em .5em 0.5em 8em;
 }
 
 header {
@@ -405,7 +406,7 @@ strong {
   }
 
   .logo {
-    margin: 1em .5em 0 0.5em;
+    margin: 1.2em .5em 0 8em;
   }
 
   h1 {
