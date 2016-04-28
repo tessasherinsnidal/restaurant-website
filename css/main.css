@@ -401,11 +401,11 @@ strong {
   }
 
   li:hover {
-    background-color: #000;
+    background-color: #8aaec0;
   }
 
   li a:hover {
-    color: rgba(255, 40, 55, 1);
+    color: #000;
   }
 
   .logo {
@@ -456,6 +456,7 @@ strong {
 
   .back-to-top {
     color: #fff;
+    border-color: #fff;
   }
 
   .location-body {
