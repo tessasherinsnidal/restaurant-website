@@ -25,9 +25,9 @@ p {
 h1 {
   display: inline-block;
   font-size: 1.25rem;
-  margin-left: .25em;
   margin-bottom: .5em;
   position: absolute;
+  left: .25em;
   top: .25em;
 }
 
